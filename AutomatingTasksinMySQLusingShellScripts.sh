@@ -111,3 +111,6 @@ mysql
 use sakila;
 select * from staff;
 \q
+
+#if want to clean up the backups folder
+sudo rm -rfv /home/theia/backups
